@@ -43,7 +43,7 @@ class NavBar extends Component{
                             <Link className="" to="">Contact Me</Link>
                         </span>
                     </div>
-                </nav>                
+                </nav>             
                 </div>
 
         )
