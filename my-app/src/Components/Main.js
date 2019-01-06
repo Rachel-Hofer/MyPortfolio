@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import '../App.css';
-
+import NavBar from  './NavBar'
+import {Route} from 'react-router-dom';
 
 class Main extends Component{
 
@@ -10,7 +10,7 @@ class Main extends Component{
         return(
 
             <div>
-                Is this working!
+                <Route  component= {NavBar} />
             </div>
 
         )
