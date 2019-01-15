@@ -8,8 +8,9 @@ class AboutMe extends Component{
 
         return(
 
-        <div>
-                <h1>Rachel Hofer </h1>              
+        <div className="container addedStyleAboutMe">
+                <h1 className="myName">Rachel Hofer </h1> 
+                <h3 className="myPosition">Front-End React Developer</h3>             
         </div>
 
         )

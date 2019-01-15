@@ -18,16 +18,16 @@ class NavBar extends Component{
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <Link class="navbar-brand links" to = ''>Future Plans</Link>
+                    <Link class="navbar-brand links" to = ''>Skills</Link>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <Link class="navbar-brand links" to = ''>Learning Resources</Link>
+                    <Link class="navbar-brand links" to = ''>Resume</Link>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarText">
+                    <div class="collapse navbar-collapse moveContactMeRight" id="navbarText">
                         <span class="navbar-text">
                             <Link className="navbar-brand links" to="">Contact Me</Link>
                         </span>
