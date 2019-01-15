@@ -8,7 +8,7 @@ class NavBar extends Component{
 
         return(
 
-<div>
+<div className="navBarAddedStyle">
                 <nav class="navbar navbar-expand-lg customizedNavBar">
                     <Link class="navbar-brand links" to = ''>About Me</Link>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
