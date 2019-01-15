@@ -1,1 +1,18 @@
+.customizedNavBar {
+    border-bottom: 1px solid black;
+}
 
+.links {
+    text-decoration: none;
+    color: grey;
+}
+
+.links:visited {
+    text-decoration: none;
+    color: grey;
+}
+
+.links:hover {
+    text-decoration: none;
+    color: black;
+}

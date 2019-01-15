@@ -9,7 +9,7 @@ class AboutMe extends Component{
         return(
 
         <div>
-                                
+                <h1>Rachel Hofer </h1>              
         </div>
 
         )

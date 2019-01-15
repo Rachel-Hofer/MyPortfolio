@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import {Route} from 'react-router-dom';
-import NavBar from  './NavBar'
-import AboutMe from  './AboutMe';
+import React, { Component } from    'react';
+import {Route} from                 'react-router-dom';
+import NavBar from                  './NavBar'
+import AboutMe from                 './AboutMe';
 
 
 class Main extends Component{
