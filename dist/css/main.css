@@ -207,7 +207,7 @@ main {
   color: white; }
   .btn-dark:hover {
     background: #999999;
-    color: white; }
+    color: #999999; }
 
 .btn-light {
   background: #fff0f2;
