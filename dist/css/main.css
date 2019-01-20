@@ -144,7 +144,7 @@ header {
 
 main {
   padding: 4rem;
-  min-height: calc(100vh-60px); }
+  min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
@@ -168,7 +168,7 @@ main {
     border-radius: 50%;
     border: 3px solid #ff99aa;
     height: 250px;
-    width: 225px; }
+    width: 235px; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
