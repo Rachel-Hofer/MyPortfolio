@@ -160,8 +160,8 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-areas: 'bioimage bio' 'job1 job3';
+  grid-template-columns: repeat(2, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
@@ -171,11 +171,11 @@ main {
     width: 235px; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.5rem; }
+    font-size: 1.1rem; }
+  .about-info .bio-para {
+    margin-top: 0; }
   .about-info .job-1 {
     grid-area: job1; }
-  .about-info .job-2 {
-    grid-area: job2; }
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
@@ -183,6 +183,14 @@ main {
     padding: 0.5rem;
     border-bottom: #ff99aa 5px solid;
     color: #999999; }
+    .about-info .job .date {
+      font-size: .9rem; }
+    .about-info .job h3,
+    .about-info .job h4,
+    .about-info .job p {
+      margin: 0; }
+    .about-info .job p {
+      margin-bottom: .5rem; }
 
 .projects {
   display: grid;
@@ -206,7 +214,7 @@ main {
     font-size: 2rem;
     border: 3px white solid;
     padding: 1.5rem 2.5rem;
-    margin-bottom: 3rem; }
+    margin-top: 3rem; }
     .boxes div:hover {
       background: #ff99aa;
       color: #999999; }
@@ -216,6 +224,28 @@ main {
       display: flex;
       justify-content: center; }
     .boxes div .adjust-contact {
+      margin-left: 20px; }
+
+.hard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .hard div {
+    font-size: 2rem;
+    border: 3px white solid;
+    padding: 1.5rem 2.5rem;
+    margin-top: 3rem; }
+    .hard div:hover {
+      background: #ff99aa;
+      color: #999999; }
+      .hard div:hover span {
+        color: white; }
+    .hard div.flex-square {
+      display: flex;
+      justify-content: center; }
+    .hard div .adjust-contact {
       margin-left: 20px; }
 
 .btn, .btn-dark, .btn-light {
