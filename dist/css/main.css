@@ -212,6 +212,11 @@ main {
       color: #999999; }
       .boxes div:hover span {
         color: white; }
+    .boxes div.flex-square {
+      display: flex;
+      justify-content: center; }
+    .boxes div .adjust-contact {
+      margin-left: 20px; }
 
 .btn, .btn-dark, .btn-light {
   display: block;

@@ -138,6 +138,7 @@ main {
 }
 
 //Contact Page
+
 .boxes {
   display: flex;
   flex-wrap: wrap;
@@ -159,8 +160,18 @@ main {
         color: white;
       }
     }
+
+    &.flex-square {
+      display: flex;
+      justify-content: center;
+    }
+
+    .adjust-contact {
+      margin-left: 20px;
+    }
   }
 }
+
 
 
 // Button Styles
