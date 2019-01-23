@@ -64,10 +64,14 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    #contact {
-
-        .adjust-contact {
-            font-size: 1rem;
+    .boxes {
+        margin-top: 1rem;
+      
+        div {
+          font-size: 1rem;
+          border: 2px white solid;
+          padding: 1rem 2rem;
+          margin-top: 2rem;
         }
     }
 }
