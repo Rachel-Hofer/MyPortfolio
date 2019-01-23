@@ -77,11 +77,13 @@
         grid-template-columns: 1fr;
     }
 
-    .boxes {
-        border: 5px solid black;
-      
-        .adjust-contact {
-          color: black;
-        }
-    }
+    body {
+        // @include background;
+        // background: $primary-color;
+        color: black;
+        // height: 100%;
+        // margin: 0;
+        // font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        // line-height: 1.5;
+      }
 }
