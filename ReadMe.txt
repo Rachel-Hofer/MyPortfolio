@@ -1,0 +1,1 @@
+My personal portfolio, created with HTML, vanilla JS and SCSS. An ongoing project to be built upon as my body of work expands.
